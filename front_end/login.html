@@ -3,34 +3,35 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Đăng Nhập</title>
-    <link rel="stylesheet" href="/front_end/css/login.css">
+    <title>Login</title>
+    <link rel="stylesheet" href="./css/login.css">
+    <link rel="stylesheet" href="./themify-icons/themify-icons.css">
 </head>
 <body>
     <div class="login-container">
-        <h2>Đăng Nhập</h2>
+        <h2>Login</h2>
         <form>
             <div class="input-group">
-                <label for="username">Tên đăng nhập</label>
+                <label for="username">Username</label>
                 <input type="text" id="username" name="username" required>
             </div>
             <div class="input-group">
-                <label for="password">Mật khẩu</label>
+                <label for="password">Password</label>
                 <input type="password" id="password" name="password" required>
             </div>
             <div class="forgot-password">
-                <a href="#">Quên mật khẩu?</a>
+                <a href="#">Forgot password?</a>
             </div>
-            <button type="submit" class="signin-btn">Đăng Nhập</button>
+            <button type="submit" class="signin-btn">Login</button>
         </form>
         <div class="social-login">
-            <p>Đăng nhập với</p>
+            <p>Login with</p>
             <div class="social-icons">
-                <button class="google-login">G</button>
-                <button class="facebook-login">F</button>
+                <button class="google-login ti-google"></button>
+                <button class="facebook-login ti-facebook"></button>
             </div>
         </div>
-        <p class="signup-text">Chưa có tài khoản? <a href="#">Đăng ký</a></p>
+        <p class="signup-text">Don't have account? <a href="#">Sign up</a></p>
     </div>
 </body>
 </html>
